@@ -1,70 +1,161 @@
 <!DOCTYPE html>
 <html lang="english">
-<head>
+    <head>
         <!-- the above is from pelican_javascript -->
-        <!-- the above is from pelican_javascript -->        
-        <title>Marios Richards' Data Science Blog - Tags</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta charset="utf-8" />
-        <link href="https://mariosrichards.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Marios Richards' Data Science Blog Full Atom Feed" />
-        <!-- twitter card metadata -->
-        <!-- OG Tags -->
-        <!-- favicon -->
-        <!-- moment.js for date formatting -->
-        <script src="https://mariosrichards.github.io/theme/js/moment.js"></script>
-        <!-- css -->
-        <link rel="stylesheet" type="text/css" href="https://mariosrichards.github.io/theme/css/main.css" />
-		<script>
-			
-                /*! grunt-grunticon Stylesheet Loader - v2.1.2 | https://github.com/filamentgroup/grunticon | (c) 2015 Scott Jehl, Filament Group, Inc. | MIT license. */
     
-    (function(e){function t(t,n,r,o){"use strict";function a(){for(var e,n=0;u.length>n;n++)u[n].href&&u[n].href.indexOf(t)>-1&&(e=!0);e?i.media=r||"all":setTimeout(a)}var i=e.document.createElement("link"),l=n||e.document.getElementsByTagName("script")[0],u=e.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",i.onload=o||null,l.parentNode.insertBefore(i,l),a(),i}var n=function(r,o){"use strict";if(r&&3===r.length){var a=e.navigator,i=e.Image,l=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new i;u.onerror=function(){n.method="png",n.href=r[2],t(r[2])},u.onload=function(){var e=1===u.width&&1===u.height,a=r[e&&l?0:e?1:2];n.method=e&&l?"svg":e?"datapng":"png",n.href=a,t(a,null,null,o)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};n.loadCSS=t,e.grunticon=n})(this);(function(e,t){"use strict";var n=t.document,r="grunticon:",o=function(e){if(n.attachEvent?"complete"===n.readyState:"loading"!==n.readyState)e();else{var t=!1;n.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},c=function(e){var t,n,o,a,c,i,u={};if(t=e.sheet,!t)return u;n=t.cssRules?t.cssRules:t.rules;for(var l=0;n.length>l;l++)o=n[l].cssText,a=r+n[l].selectorText,c=o.split(");")[0].match(/US\-ASCII\,([^"']+)/),c&&c[1]&&(i=decodeURIComponent(c[1]),u[a]=i);return u},i=function(e){var t,o,a;o="data-grunticon-embed";for(var c in e)if(a=c.slice(r.length),t=n.querySelectorAll(a+"["+o+"]"),t.length)for(var i=0;t.length>i;i++)t[i].innerHTML=e[c],t[i].style.backgroundImage="none",t[i].removeAttribute(o);return t},u=function(t){"svg"===e.method&&o(function(){i(c(a(e.href))),"function"==typeof t&&t()})};e.embedIcons=i,e.getCSS=a,e.getIcons=c,e.ready=o,e.svgLoadedCallback=u,e.embedSVG=u})(grunticon,this);
-                
-                grunticon(["https://mariosrichards.github.io/theme/css/icons.data.svg.css", "https://mariosrichards.github.io/theme/css/icons.data.png.css", "https://mariosrichards.github.io/theme/css/icons.fallback.css"]);
-            </script>
-        <noscript><link href="https://mariosrichards.github.io/theme/css/icons.fallback.css" rel="stylesheet"></noscript>
-        <!-- menu toggle javascript -->
-        <script type="text/javascript">
-            document.addEventListener("DOMContentLoaded", initMenu);
-            
-            function initMenu(){
-                var menu = document.getElementById("menu");
-                var menulink = document.getElementById("menu-link");
-                menulink.addEventListener("click", function toggleMenu(){
-                        window.event.preventDefault();
-                        menulink.classList.toggle('active');
-                        menu.classList.toggle('active');              
-                    });
-            };
-        </script>
-</head>
-<body>
-    <div role="banner" id="masthead">
-        <header>
-            <h1><a href="/">'s Blog</a></h1>
-            <a href="#menu" id="menu-link">more stuff</a>
-            <nav id="menu">
-                <ul>
-                            <li><a href="https://mariosrichards.github.io/category/posts.html">posts</a></li>
-                </ul>
-            </nav>
-        </header>
-    </div>
-        <div class="page" role="main">
-<div class="page-title">
-        <h1>tags</h1>
-</div>
-<div class="articles">
-    <ul>
-        <li><a href="https://mariosrichards.github.io/tag/data-visualisation.html">data visualisation</a> <span class="count">(1)</span></li>
-    </ul>
-</div>
-                <footer>
-                    <div class="icons">
-                    </div>
-                    <p>© <script>document.write(moment().format('YYYY'));</script> Marios Richards</p>
-                </footer>
-        </div>
-</body>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Marios Richards" />
 
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary">
+
+<meta property="og:title" content="All Tags · Marios Richards&#39; Data Science Blog"/>
+<meta name="twitter:title" content="All Tags · Marios Richards&#39; Data Science Blog">
+<meta property="og:url" content="https://mariosrichards.github.io/tags.html" />
+<meta property="og:description" content="All tags used in the Marios Richards&#39; Data Science Blog blog" />
+<meta name="twitter:description" content="All tags used in the Marios Richards&#39; Data Science Blog blog">
+<meta property="og:site_name" content="Marios Richards&#39; Data Science Blog" />
+<meta property="og:article:author" content="Marios Richards" />
+        <title>All Tags · Marios Richards&#39; Data Science Blog
+</title>
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://mariosrichards.github.io/theme/css/elegant.prod.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="https://mariosrichards.github.io/theme/css/custom.css" media="screen">
+        <link href="https://mariosrichards.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Marios Richards&#39; Data Science Blog - Full Atom Feed" />
+
+
+
+    </head>
+    <body>
+        <div id="content">
+            <div class="navbar navbar-static-top">
+                <div class="navbar-inner">
+                    <div class="container-fluid">
+                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                        <a class="brand" href="https://mariosrichards.github.io/"><span class=site-name>Marios Richards' Data Science Blog</span></a>
+                        <div class="nav-collapse collapse">
+                            <ul class="nav pull-right top-menu">
+                                <li >
+                                    <a href=
+                                       https://mariosrichards.github.io
+                                    >Home</a>
+                                </li>
+                                <li ><a href="https://mariosrichards.github.io/categories.html">Categories</a></li>
+                                <li  class="active"><a href="https://mariosrichards.github.io/tags.html">Tags</a></li>
+                                <li ><a href="https://mariosrichards.github.io/archives.html">Archives</a></li>
+                                <li><form class="navbar-search" action="https://mariosrichards.github.io/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="span1"></div>
+                    <div class="span10">
+<div class="row-fluid">
+    <header class="page-header span10 offset2">
+    <h1><a href="https://mariosrichards.github.io/tags.html">All Tags</a></h1>
+    </header>
+</div>
+<div class="row-fluid">
+    <div class="span8 offset2">
+        <form class="form-search">
+            <input type="text" class="input-medium search-query filterinput" placeholder="Find a tag">
+        </form>
+        <ul class="list-of-tags">
+            <li>
+            <a href="#data-visualisation-ref">data visualisation<span>1</span></a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="row-fluid">
+    <div class="span8 offset2">
+        <h2 id="data-visualisation-ref" class="tag-title">data visualisation</h2>
+        <ul class="articles-in-tag list-articles-category">
+            <li itemscope>
+                <time itemprop="dateCreated" datetime="2020-01-11T21:00:00+01:00">
+                    Sat 11 January 2020
+                </time>
+                <a href="https://mariosrichards.github.io/pollbase-analysis.html">
+                    Mark Pack's Pollbase Analysis
+                </a>
+            </li>
+        </ul>
+
+    </div>
+</div>
+
+                    </div>
+                    <div class="span1"></div>
+                </div>
+            </div>
+        </div>
+<footer>
+
+
+
+
+    <div id="fpowered">
+        Powered by: <a href="http://getpelican.com/" title="Pelican Home Page" target="_blank" rel="nofollow noopener noreferrer">Pelican</a>
+        Theme: <a href="https://elegant.oncrashreboot.com/" title="Theme Elegant Home Page" target="_blank" rel="nofollow noopener noreferrer">Elegant</a>
+    </div>
+</footer>        <script src="//code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+
+<script>
+    (function ($) {
+        // custom css expression for a case-insensitive contains()
+        jQuery.expr[':'].Contains = function(a,i,m){
+            return (a.textContent || a.innerText || "").toUpperCase().indexOf(m[3].toUpperCase())>=0;
+        };
+
+        function listFilter() {
+
+            $('.filterinput')
+            .change( function () {
+                var filter = $(this).val();
+                if(filter) {
+                    // this finds all links in a list that contain the input,
+                    // and hide the ones not containing the input while showing the ones that do
+                    $('.list-of-tags').find("a:not(:Contains(" + filter + "))").parent().hide();
+                    $('.list-of-tags').find("a:Contains(" + filter + ")").parent().show();
+                    } else {
+                    $('.list-of-tags').find("li").show();
+                }
+                return false;
+            })
+            .keyup( function () {
+                // fire the above change event after every letter
+                $(this).change();
+            });
+        }
+
+        //ondomready
+        $(function () {
+            listFilter($());
+        });
+    }(jQuery));
+
+</script>
+
+
+    </body>
+    <!-- Theme: Elegant built for Pelican
+        License : MIT -->
 </html>
