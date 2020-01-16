@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="english" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
         <!-- the above is from pelican_javascript -->
     <title>posts - Marios Richards' Data Science Blog</title>
@@ -11,7 +11,7 @@
 
 
 
-    <meta name="author" content="Marios Richards" />
+    <meta name="author" content="MARIOS RICHARDS" />
     <meta name="keywords" content="posts" />
 
     <!-- Open Graph tags -->
@@ -30,16 +30,13 @@
     <link href="https://mariosrichards.github.io/theme/css/pygments/native.css" rel="stylesheet">
     <link rel="stylesheet" href="https://mariosrichards.github.io/theme/css/style.css" type="text/css"/>
 
-        <link href="https://mariosrichards.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
-              title="Marios Richards' Data Science Blog ATOM Feed"/>
 
-        <link href="https://mariosrichards.github.io/feeds/posts.atom.xml" type="application/atom+xml" rel="alternate"
-              title="Marios Richards' Data Science Blog posts ATOM Feed"/>
+
 </head>
 <body>
 
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
+    <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -67,13 +64,20 @@ Marios Richards' Data Science Blog            </a>
 <!-- End Banner -->
 
 <!-- Content Container -->
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col-sm-9">
             <article>
                 <h2><a href="https://mariosrichards.github.io/pollbase-analysis.html">Mark Pack's Pollbase Analysis</a></h2>
                 <div class="summary"><p>Mark Pack's Pollbase Analysis - Interactive Chart</p>
                     <a class="btn btn-default btn-xs" href="https://mariosrichards.github.io/pollbase-analysis.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://mariosrichards.github.io/public-whip.html">Public Whip Dataset</a></h2>
+                <div class="summary"><p>Public Whip Dataset - Interactive Chart</p>
+                    <a class="btn btn-default btn-xs" href="https://mariosrichards.github.io/public-whip.html">more ...</a>
                 </div>
             </article>
             <hr/>
@@ -89,8 +93,10 @@ Marios Richards' Data Science Blog            </a>
 <li class="list-group-item">
   <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
   <ul class="list-group" id="social">
-    <li class="list-group-item"><a href="#"><i class="fa fa-you-can-add-links-in-your-config-file-square fa-lg"></i> You can add links in your config file</a></li>
-    <li class="list-group-item"><a href="#"><i class="fa fa-another-social-link-square fa-lg"></i> Another social link</a></li>
+    <li class="list-group-item"><a href="http://twitter.com/MariosRichards"><i class="fa fa-twitter-square fa-lg"></i> twitter</a></li>
+    <li class="list-group-item"><a href="https://www.linkedin.com/in/marios-richards-6836897a/"><i class="fa fa-linkedin-square fa-lg"></i> linkedin</a></li>
+    <li class="list-group-item"><a href="https://github.com/MariosRichards"><i class="fa fa-github-square fa-lg"></i> github</a></li>
+    <li class="list-group-item"><a href="https://www.facebook.com/marios.richards"><i class="fa fa-facebook-square fa-lg"></i> facebook</a></li>
   </ul>
 </li>
 <!-- End Sidebar/Social -->
@@ -123,10 +129,10 @@ Marios Richards' Data Science Blog            </a>
 <!-- End Content Container -->
 
 <footer>
-   <div class="container">
+   <div class="container-fluid">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2020 Marios Richards
+         <div class="col-xs-10">&copy; 2020 MARIOS RICHARDS
             &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
@@ -143,6 +149,21 @@ Marios Richards' Data Science Blog            </a>
 <script src="https://mariosrichards.github.io/theme/js/respond.min.js"></script>
 
 
+    <!-- Disqus -->
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'marios-richards'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <!-- End Disqus Code -->
 
 
 </body>
